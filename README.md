@@ -10,6 +10,7 @@ This implementation allows for components which depend on deeply nested object s
 npm i react-usehandlestate
 ```
 
+## Examples
 ### Nested Object
 
 We can safely modify nested objects/properties.
@@ -43,7 +44,10 @@ import React, { FC } from 'react';
 import { useHandleState } from 'react-usehandlestate';
 
 export const NestedObjectWithPrev: FC = () => {
-  const [rootObject, handleChange] = useHandleState({ a: 'a', subObject: { b: 'b', property: 0 } });
+  const [rootObject, handleChange] = useHandleState({
+    a: 'a',
+    subObject: { b: 'b', property: 0 },
+  });
 
   return (
     <div>
@@ -85,7 +89,7 @@ export const PrimitiveWithPrev: FC = () => {
   return (
     <div>
       <h1>Time's clicked: {myNumber}</h1>
-      <button onClick={() => handleChange((prev) => prev + 1)}>+</button>
+      <buttononClick={() => handleChange((prev) => prev + 1)}>+</button>
     </div>
   );
 };
