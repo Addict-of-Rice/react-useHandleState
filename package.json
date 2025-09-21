@@ -1,0 +1,30 @@
+{
+  "name": "react-usehandlestate",
+  "version": "1.0.0",
+  "description": "A modified useState hook which exposes the commonly implmented handleChange function which can be used to modify state. handleChange supports modifying properties of objects stored in state including nested objects and their properties.",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsup src/index.ts --format cjs,esm --dts --external react,react-dom",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "React",
+    "ReactNative",
+    "Typescript",
+    "Custom",
+    "Hook",
+    "useState",
+    "handleChange",
+    "useHandleState",
+    "Nested",
+    "Object"
+  ],
+  "author": "addict-of-rice",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^19.1.13",
+    "@types/react-dom": "^19.1.9",
+    "tsup": "^8.5.0",
+    "typescript": "^5.9.2"
+  }
+}
