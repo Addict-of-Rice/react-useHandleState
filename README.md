@@ -89,7 +89,7 @@ export const PrimitiveWithPrev: FC = () => {
   return (
     <div>
       <h1>Time's clicked: {myNumber}</h1>
-      <buttononClick={() => handleChange((prev) => prev + 1)}>+</button>
+      <button onClick={() => handleChange((prev) => prev + 1)}>+</button>
     </div>
   );
 };
