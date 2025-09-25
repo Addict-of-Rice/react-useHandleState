@@ -1,6 +1,6 @@
 {
   "name": "react-usehandlestate",
-  "version": "1.0.3",
+  "version": "1.0.6",
   "description": "A modified useState hook which exposes the commonly implmented handleChange function which can be used to modify state. handleChange supports modifying properties of objects stored in state including nested objects and their properties.",
   "main": "dist/index.js",
   "scripts": {
